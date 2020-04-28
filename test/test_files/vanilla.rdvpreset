@@ -1,0 +1,196 @@
+{
+    "schema_version": 1,
+    "name": "Vanilla",
+    "description": "A preset that was customized.",
+    "base_preset_name": "Darkszero's Deluxe",
+    "patcher_configuration": {
+        "menu_mod": true,
+        "warp_to_start": true,
+        "varia_suit_damage": 6.0,
+        "dark_suit_damage": 1.2,
+        "pickup_model_style": "all-visible",
+        "pickup_model_data_source": "etm"
+    },
+    "layout_configuration": {
+        "game": "mp2-echoes",
+        "trick_level": {
+            "global_level": "no-tricks",
+            "specific_levels": {}
+        },
+        "damage_strictness": 1.5,
+        "sky_temple_keys": 9,
+        "elevators": "vanilla",
+        "starting_location": [
+            "Temple Grounds/Landing Site"
+        ],
+        "available_locations": {
+            "randomization_mode": "full",
+            "excluded_indices": []
+        },
+        "major_items_configuration": {
+            "items_state": {
+                "Dark Visor": {
+                    "include_copy_in_original_location": true
+                },
+                "Echo Visor": {
+                    "include_copy_in_original_location": true
+                },
+                "Dark Suit": {
+                    "include_copy_in_original_location": true
+                },
+                "Light Suit": {
+                    "include_copy_in_original_location": true
+                },
+                "Progressive Suit": {},
+                "Dark Beam": {
+                    "include_copy_in_original_location": true,
+                    "included_ammo": [
+                        50
+                    ]
+                },
+                "Light Beam": {
+                    "include_copy_in_original_location": true,
+                    "included_ammo": [
+                        50
+                    ]
+                },
+                "Annihilator Beam": {
+                    "include_copy_in_original_location": true,
+                    "included_ammo": [
+                        0,
+                        0
+                    ]
+                },
+                "Morph Ball Bomb": {
+                    "include_copy_in_original_location": true
+                },
+                "Boost Ball": {
+                    "include_copy_in_original_location": true
+                },
+                "Spider Ball": {
+                    "include_copy_in_original_location": true
+                },
+                "Power Bomb": {
+                    "include_copy_in_original_location": true,
+                    "included_ammo": [
+                        2
+                    ]
+                },
+                "Space Jump Boots": {
+                    "include_copy_in_original_location": true
+                },
+                "Gravity Boost": {
+                    "include_copy_in_original_location": true
+                },
+                "Grapple Beam": {
+                    "include_copy_in_original_location": true
+                },
+                "Screw Attack": {
+                    "include_copy_in_original_location": true
+                },
+                "Progressive Grapple": {},
+                "Missile Launcher": {
+                    "include_copy_in_original_location": true,
+                    "included_ammo": [
+                        5
+                    ]
+                },
+                "Seeker Launcher": {
+                    "include_copy_in_original_location": true,
+                    "included_ammo": [
+                        5
+                    ]
+                },
+                "Super Missile": {
+                    "include_copy_in_original_location": true
+                },
+                "Sunburst": {
+                    "include_copy_in_original_location": true
+                },
+                "Darkburst": {
+                    "include_copy_in_original_location": true
+                },
+                "Sonic Boom": {
+                    "include_copy_in_original_location": true
+                },
+                "Violet Translator": {
+                    "include_copy_in_original_location": true
+                },
+                "Amber Translator": {
+                    "include_copy_in_original_location": true
+                },
+                "Emerald Translator": {
+                    "include_copy_in_original_location": true
+                },
+                "Cobalt Translator": {
+                    "include_copy_in_original_location": true
+                }
+            },
+            "progressive_suit": false,
+            "progressive_grapple": false,
+            "minimum_random_starting_items": 0,
+            "maximum_random_starting_items": 0
+        },
+        "ammo_configuration": {
+            "maximum_ammo": {
+                "44": 255,
+                "43": 10,
+                "45": 250,
+                "46": 250
+            },
+            "items_state": {
+                "Missile Expansion": {
+                    "variance": 0,
+                    "pickup_count": 49,
+                    "requires_major_item": false
+                },
+                "Power Bomb Expansion": {
+                    "variance": 0,
+                    "pickup_count": 8,
+                    "requires_major_item": false
+                },
+                "Dark Ammo Expansion": {
+                    "variance": 0,
+                    "pickup_count": 0,
+                    "requires_major_item": true
+                },
+                "Light Ammo Expansion": {
+                    "variance": 0,
+                    "pickup_count": 0,
+                    "requires_major_item": true
+                },
+                "Beam Ammo Expansion": {
+                    "variance": 0,
+                    "pickup_count": 4,
+                    "requires_major_item": true
+                }
+            }
+        },
+        "translator_configuration": {
+            "translator_requirement": {
+                "0": "violet",
+                "1": "violet",
+                "2": "violet",
+                "3": "violet",
+                "4": "amber",
+                "5": "violet",
+                "6": "violet",
+                "7": "violet",
+                "8": "amber",
+                "9": "emerald",
+                "10": "amber",
+                "11": "amber",
+                "12": "emerald",
+                "13": "emerald",
+                "14": "emerald",
+                "15": "cobalt",
+                "16": "cobalt"
+            }
+        },
+        "hints": {
+            "item_hints": true,
+            "sky_temple_keys": "precise"
+        },
+        "split_beam_ammo": false
+    }
+}

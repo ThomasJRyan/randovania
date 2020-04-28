@@ -24,6 +24,16 @@ def get_default_major_items_configurations() -> MajorItemsConfiguration:
     )
 
 
+def get_vanilla_major_items_configurations() -> MajorItemsConfiguration:
+    default_major_items_config = get_default_major_items_configurations()
+    return default_major_items_config.replace_states({
+        major_item: MajorItemState(include_copy_in_original_location=major_item.original_index is not None,
+                                   included_ammo=reference_state.included_ammo,
+                                   )
+        for major_item, reference_state in default_major_items_config.items_state.items()
+    })
+
+
 def get_default_ammo_configurations() -> AmmoConfiguration:
     item_database = default_prime2_item_database()
 
